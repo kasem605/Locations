@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "INIsthLR+MdXmQrU4JJnfsQL9iIvs+yUt5uTjwIHC9+q9uqHY6ur++bb/xxAJcsoCQ78gq12I1aGlYURsQM1LQ==",
+  "success": true,
+  "projectFilePath": "/Users/kasem/Projects/Locations/Locations/Locations/Locations.csproj",
+  "expectedPackageFiles": [
+    "/Users/kasem/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/kasem/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/kasem/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/kasem/.nuget/packages/xamarin.essentials/1.7.3/xamarin.essentials.1.7.3.nupkg.sha512",
+    "/Users/kasem/.nuget/packages/xamarin.forms/5.0.0.2478/xamarin.forms.5.0.0.2478.nupkg.sha512",
+    "/Users/kasem/.nuget/packages/xamarin.forms.maps/5.0.0.2478/xamarin.forms.maps.5.0.0.2478.nupkg.sha512"
+  ],
+  "logs": []
+}

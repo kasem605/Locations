@@ -1,0 +1,17 @@
+/Users/kasem/Projects/Locations/Locations/Locations/bin/Debug/netstandard2.0/Locations.deps.json
+/Users/kasem/Projects/Locations/Locations/Locations/bin/Debug/netstandard2.0/Locations.dll
+/Users/kasem/Projects/Locations/Locations/Locations/bin/Debug/netstandard2.0/ref/Locations.dll
+/Users/kasem/Projects/Locations/Locations/Locations/bin/Debug/netstandard2.0/Locations.pdb
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/Locations.csproj.AssemblyReference.cache
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/Locations.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/Views/MainPage.xaml.g.cs
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/Locations.AssemblyInfoInputs.cache
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/Locations.AssemblyInfo.cs
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/Locations.csproj.CoreCompileInputs.cache
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/Locations.dll
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/ref/Locations.dll
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/Locations.pdb
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/Views/DetailPage.xaml.g.cs
+/Users/kasem/Projects/Locations/Locations/Locations/obj/Debug/netstandard2.0/Views/NewLocationPage.xaml.g.cs

@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{CC74634E-A632-47EC-88ED-4781F624BD13}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Locations.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.74D1F1AC-62FF-4732-8405-00FF2D401634" />
+  <MonoDevelop.Ide.ItemProperties.Locations.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Locations/Locations/ViewModels/MainViewModel.cs">
+    <Files>
+      <File FileName="Locations/Locations/Models/LocationEntity.cs" Line="15" Column="1" />
+      <File FileName="Locations/Locations/Views/MainPage.xaml" Line="22" Column="46" />
+      <File FileName="Locations/Locations/Views/MainPage.xaml.cs" Line="35" Column="56" />
+      <File FileName="Locations/Locations/App.xaml" Line="1" Column="1" />
+      <File FileName="Locations/Locations/App.xaml.cs" Line="33" Column="1" />
+      <File FileName="Locations/Locations/ViewModels/MainViewModel.cs" Line="124" Column="36" />
+      <File FileName="Locations/Locations/ViewModels/BaseViewModel.cs" Line="35" Column="1" />
+      <File FileName="Locations/Locations/ViewModels/NewLocationViewModel.cs" Line="116" Column="1" />
+      <File FileName="Locations/Locations/Views/NewLocationPage.xaml" Line="32" Column="25" />
+      <File FileName="Locations/Locations/Views/NewLocationPage.xaml.cs" Line="29" Column="17" />
+      <File FileName="Locations/Locations/ViewModels/DetailViewModel.cs" Line="22" Column="25" />
+      <File FileName="Locations/Locations/Views/DetailPage.xaml" Line="22" Column="130" />
+      <File FileName="Locations/Locations/Views/DetailPage.xaml.cs" Line="45" Column="32" />
+      <File FileName="Locations/Locations.iOS/AppDelegate.cs" Line="30" Column="1" />
+      <File FileName="Locations/Locations/ViewModels/BaseValidationViewModel.cs" Line="15" Column="82" />
+      <File FileName="Locations/Locations/Converters/ReverseBooleanConverter.cs" Line="8" Column="3" />
+      <File FileName="Locations/Locations/Services/INavService.cs" Line="20" Column="3" />
+      <File FileName="Locations/Locations/Services/XamarinFormsNavService.cs" Line="21" Column="1" />
+      <File FileName="Locations/Locations.iOS/Renderers/DatePickerEntryCellRenderer.cs" Line="4" Column="16" />
+      <File FileName="Locations/Locations/Controls/DatePickerEntryCell.cs" Line="5" Column="20" />
+      <File FileName="Locations/Locations.iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Locations" expanded="True">
+            <Node name="Locations" expanded="True">
+              <Node name="Controls" expanded="True" />
+              <Node name="Converters" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="MainViewModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="DetailPage.xaml" expanded="True" />
+                <Node name="MainPage.xaml" expanded="True" />
+                <Node name="NewLocationPage.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+            <Node name="Locations.iOS" expanded="True">
+              <Node name="Renderers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

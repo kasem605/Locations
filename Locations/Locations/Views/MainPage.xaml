@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:Locations.ViewModels"
+    x:Class="Locations.Views.MainPage"
+    Title="Favorite Locations">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="New" Command = "{Binding NewCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+       <StackLayout Padding="10" >
+        <SearchBar x:Name="searchBar"
+                   Placeholder="Search locations ..."
+                   HorizontalOptions="Center"
+                   CancelButtonColor="Blue"
+                   PlaceholderColor="Gray"
+                   TextTransform="Lowercase"
+                   HorizontalTextAlignment="Start"
+                   SearchCommand="{Binding PerformSearchCommand}"
+                   Text="{Binding SearchText}"
+                   />
+
+        <ListView x:Name="locations" SelectionMode="Single" HasUnevenRows="True" ItemsSource="{Binding Locations}" >
+                <ListView.Header>
+                    <Grid HorizontalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*" />
+                            <ColumnDefinition Width="3*" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Date" Grid.Column="0" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" TextColor="SteelBlue" TextDecorations="Underline" FontAttributes="Bold">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding DateSortCommand}" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label Text="Locations" Grid.Column="1" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" TextColor="SteelBlue" TextDecorations="Underline" FontAttributes="Bold">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding LocationSortCommand}" />
+                            </Label.GestureRecognizers>
+                        </Label>
+                        
+                    </Grid>
+                </ListView.Header>
+
+                <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="10">
+                            <Grid.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource
+                                                      AncestorType={x:Type vm:MainViewModel}},
+                                                      Path=ViewCommand}"
+                                                      CommandParameter="{Binding}" />
+                            </Grid.GestureRecognizers>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="1*" />
+                                <ColumnDefinition Width="3*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Label Grid.RowSpan="2" VerticalOptions="Center" HorizontalOptions="Center" Text="{Binding Date, StringFormat='{0:MMM d}'}" />
+                            <Label Grid.Column ="1" Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Start" Text="{Binding Title}" FontAttributes="Bold" />
+                            <Label Grid.Column="1" Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Start" Text="{Binding Desc}" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+      </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

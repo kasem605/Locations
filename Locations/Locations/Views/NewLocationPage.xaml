@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:Locations.Controls;assembly=Locations"
+    xmlns:converters="clr-namespace:Locations.Converters;assembly=Locations"
+    x:Class="Locations.Views.NewLocationPage;assembly=Locations"
+    Title="New Location">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+           <converters:ReverseBooleanConverter x:Key="ReverseBooleanConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Command="{Binding SaveCommand}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <Grid>
+            <TableView Intent="Form" IsVisible="{Binding IsBusy, Converter={StaticResource ReverseBooleanConverter}}">
+                <TableView.Root>
+                    <TableSection>
+                        <EntryCell x:Name="title" Label="Title" Text="{Binding Title}"/>
+                        <EntryCell Label="Latitude" Text="{Binding Latitude}" Keyboard="Numeric"/>
+                        <EntryCell Label="Longitude" Text="{Binding Longitude}" Keyboard="Numeric"/>
+                        <controls:DatePickerEntryCell Label="Date" Date="{Binding Date, StringFormat='{0:d}'}" />
+                        <EntryCell x:Name="favorite" Label="Favorite" Text="{Binding Favorite}" Keyboard="Numeric"/>
+                        <EntryCell Label="Desc" Text="{Binding Desc}"/>
+                   </TableSection>
+                    <TableSection>
+                    </TableSection>
+                </TableView.Root>
+            </TableView>
+            <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center"
+                         IsVisible="{Binding IsBusy}">
+                <ActivityIndicator IsRunning="True" />
+                <Label Text="saving New Entry ..." />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
+

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "O9SeYBgfLpTkc1Hf9feEAMhclMBI2pSmoNNt6NcnqivJu2npbZcbCytU5izoYx2DhQh4DVOZWQecuVymKfI6/Q==",
+  "success": true,
+  "projectFilePath": "/Users/kasem/Projects/Locations/Locations/Locations.iOS/Locations.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/kasem/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/kasem/.nuget/packages/xamarin.essentials/1.7.3/xamarin.essentials.1.7.3.nupkg.sha512",
+    "/Users/kasem/.nuget/packages/xamarin.forms/5.0.0.2478/xamarin.forms.5.0.0.2478.nupkg.sha512",
+    "/Users/kasem/.nuget/packages/xamarin.forms.maps/5.0.0.2478/xamarin.forms.maps.5.0.0.2478.nupkg.sha512"
+  ],
+  "logs": []
+}
